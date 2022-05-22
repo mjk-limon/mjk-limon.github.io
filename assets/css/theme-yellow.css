@@ -1,0 +1,76 @@
+/*----------------------------------------------
+*
+* [Theme Light Blue Stylesheet]
+*
+* Theme    : Leverage
+* Version  : 2.1
+* Author   : Codings
+* Support  : codings.dev
+* 
+----------------------------------------------*/
+
+/*----------------------------------------------
+
+[ALL CONTENTS]
+
+1. Root
+2. Button
+3. Feature
+
+----------------------------------------------*/
+
+/*----------------------------------------------
+1. Root
+----------------------------------------------*/
+
+/* #region Root */
+
+:root {
+    
+    --primary-color: #fca311;
+    --secondary-color: #f5f5f5;
+}
+
+/* #endregion Root */
+
+/*----------------------------------------------
+2. Button
+----------------------------------------------*/
+
+/* #region Button */
+
+.dark-button:hover, .dark-button:focus, .dark-button:hover:after, .dark-button:focus:after {
+    background-color: var(--primary-color)!important;
+    background-image: -webkit-linear-gradient(45deg, var(--primary-color) 15%, var(--primary-color) 65%)!important;
+    background-image: linear-gradient(45deg, var(--primary-color) 15%, var(--primary-color) 65%)!important;
+    color: var(--white-color)!important;
+}
+
+.primary-button:hover, .primary-button:focus {
+    background-color: var(--primary-color)!important;
+    background-image: -webkit-linear-gradient(45deg, var(--primary-color) 15%, var(--primary-color) 65%)!important;
+    background-image: linear-gradient(45deg, var(--primary-color) 15%, var(--primary-color) 65%)!important;
+    color: var(--white-color)!important;
+}
+
+/* #endregion Button */
+
+/*----------------------------------------------
+3. Feature
+----------------------------------------------*/
+
+/* #region Feature */
+
+.card:not(.no-hover):hover {
+    background: -webkit-linear-gradient(45deg, var(--primary-color) 15%, var(--primary-color) 65%);
+    background: linear-gradient(45deg, var(--primary-color) 15%, var(--primary-color) 65%);
+    transform: translateY(-7.5px);
+}
+
+.showcase .card:hover .image-over:before {
+    background: -webkit-linear-gradient(45deg, var(--primary-color) 15%, var(--primary-color) 65%);
+    background: linear-gradient(45deg, var(--primary-color) 15%, var(--primary-color) 65%);
+    opacity: 0.9;
+}
+
+/* #endregion Feature */

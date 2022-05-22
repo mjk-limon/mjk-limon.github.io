@@ -1,0 +1,82 @@
+/*----------------------------------------------
+*
+* [Theme Blue Stylesheet]
+*
+* Theme    : Leverage
+* Version  : 2.1
+* Author   : Codings
+* Support  : codings.dev
+* 
+----------------------------------------------*/
+
+/*----------------------------------------------
+
+[ALL CONTENTS]
+
+1. Root
+2. Custom
+
+----------------------------------------------*/
+
+/*----------------------------------------------
+1. Root
+----------------------------------------------*/
+
+/* #region Root */
+
+:root {
+    
+    --primary-color: #1E50BC;
+    --secondary-color: #1a8fe3;
+}
+
+/* #endregion Root */
+
+/*----------------------------------------------
+2. Custom
+----------------------------------------------*/
+
+/* #region Custom */
+
+header .navbar-expand .navbar-brand i {
+    color: #ffffff;
+}
+
+.navbar-expand .navbar-nav .nav-link:not(.btn):not(.title):hover {
+    color: #ffffff;
+}
+
+.navbar-expand .navbar-nav .nav-link.active:not(.btn):not(.title) {
+    color: #ffffff;
+}
+
+.navbar-expand .navbar-nav .dropdown-menu .nav-link.active:not(.btn):not(.title) {
+    color: var(--primary-color);
+}
+
+.hero .effect-static-text {
+    -webkit-text-fill-color: #ffffff;
+}
+
+.hero p {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+header .primary-button, header .primary-button:visited, header .primary-button:active,
+.hero .primary-button, .hero .primary-button:visited, .hero .primary-button:active {
+    background: none;
+    border: 1px solid #ffffff;
+}
+
+.hero .primary-button:hover, .hero .primary-button:focus {
+    background-color: var(--primary-color);
+    background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var(--primary-color) 65%);
+    background-image: linear-gradient(45deg, var(--secondary-color) 15%, var(--primary-color) 65%);
+    color: var(--primary-b-color);
+}
+
+.form .message {
+    background-color: var(--primary-color);
+}
+
+/* #endregion Custom */

@@ -1,0 +1,112 @@
+/*----------------------------------------------
+*
+* [Theme Blue Stylesheet]
+*
+* Theme    : Leverage
+* Version  : 2.1
+* Author   : Codings
+* Support  : codings.dev
+* 
+----------------------------------------------*/
+
+/*----------------------------------------------
+
+[ALL CONTENTS]
+
+1. Root
+2. Custom
+
+----------------------------------------------*/
+
+/*----------------------------------------------
+1. Root
+----------------------------------------------*/
+
+/* #region Root */
+
+:root {
+    
+    --primary-color: #ffffff;
+    --secondary-color: #ffffff;
+}
+
+/* #endregion Root */
+
+/*----------------------------------------------
+2. Custom
+----------------------------------------------*/
+
+/* #region Custom */
+
+header .navbar-expand .navbar-brand i {
+    color: #ffffff;
+}
+
+.navbar-expand .navbar-nav .nav-link:not(.btn):not(.title):hover {
+    color: #ffffff;
+}
+
+.navbar-expand .navbar-nav .nav-link.active:not(.btn):not(.title) {
+    color: #ffffff;
+}
+
+.navbar-expand .navbar-nav .dropdown-menu .nav-link.active:not(.btn):not(.title) {
+    color: var(--primary-color);;
+}
+
+.hero .effect-static-text {
+    -webkit-text-fill-color: #ffffff;
+}
+
+.hero p {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.primary-button, .primary-button:visited, .primary-button:active,
+.modal-body .primary-button, .modal-body .primary-button:visited, .modal-body .primary-button:active,
+.form-content .primary-button, .form-content .primary-button:visited, footer .primary-button:active,
+footer .primary-button, footer .primary-button:visited, footer .primary-button:active {
+    background: none;
+    border: 1px solid #ffffff;
+}
+
+.primary-button:hover, .primary-button:focus,
+.modal-body .primary-button:hover, .modal-body .primary-button:focus,
+.form-content .primary-button:hover, .form-content .primary-button:focus,
+footer .primary-button:hover, footer .primary-button:focus,
+a.gdpr-cookie-notice-nav-item-btn:not(.btn),
+a.gdpr-cookie-notice-modal-footer-item-btn:not(.btn) {
+    background-image: none;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.card:not(.no-hover):hover,
+.showcase .card:hover .image-over:before,
+.showcase .card:hover .image-over .play-video-full:after {
+    background: none;
+    background-color: #292929;
+}
+
+.play-video {
+    background-image: none;
+    background-color: rgba(17, 17, 17, 0.75);
+}
+
+.form .message {
+    background-color: #191919;
+}
+
+.body-mode-dark .widget-carousel .card {
+    border: 1px solid var(--secondary-l-color);
+}
+
+.gdpr-cookie-notice-modal-cookie-input:checked+.gdpr-cookie-notice-modal-cookie-input-switch {
+    background: #b4b0b0;
+}
+
+a.gdpr-cookie-notice-modal-footer-item:not(.btn),
+.gdpr-cookie-notice-modal-cookie-state {
+    color: #191919;
+}
+
+/* #endregion Custom */
