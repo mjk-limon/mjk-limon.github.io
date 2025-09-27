@@ -962,6 +962,15 @@ aside {
     margin-bottom: 30px;
 }
 
+.offers .items .card:not(.no-hover):hover {
+    background: #111;
+}
+
+.offers .items .item:first-child .card.featured:hover:before,
+.offers .items .item:last-child .card.featured:hover:before {
+    display: none;
+}
+
 .offers .items .item .icon {
     background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var(--primary-color) 65%);
     background-image: linear-gradient(45deg, var(--secondary-color) 15%, var(--primary-color) 65%);
@@ -973,6 +982,10 @@ aside {
 
 .offers.secondary .items .item h4 {
     margin-top: 0;
+}
+
+.offers.offer-full .items .item .gallery {
+    margin-bottom: 15px;
 }
 
 .counter.skills .items .item {
@@ -3717,6 +3730,70 @@ footer .copyright a:not(.btn) {
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
+.skeleton-box {
+    display: inline-block;
+    height: 1em;
+    position: relative;
+    overflow: hidden;
+    background-color: #DDDBDD;
+}
+
+.skeleton-box::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-100%);
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0.2) 20%, rgba(255, 255, 255, 0.5) 60%, rgba(255, 255, 255, 0));
+    -webkit-animation: shimmer 5s infinite;
+    animation: shimmer 5s infinite;
+    content: "";
+}
+
+@-webkit-keyframes shimmer {
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+@keyframes shimmer {
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+.blog-post__headline {
+    margin-top: 0;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.blog-post__meta {
+    font-size: 0.85em;
+    color: #6b6b6b;
+}
+
+.o-media {
+    display: flex;
+    width: 100%;
+    padding: 35px;
+    background-color: var(--dark-grey-color);
+}
+
+.o-media__body {
+    flex-grow: 1;
+    margin-left: 1em;
+}
+
+.o-vertical-spacing>*+* {
+    margin-top: 0.75em;
+}
+
+.o-vertical-spacing--l>*+* {
+    margin-top: 2em;
+}
+
 /* #endregion Miscellaneous */
 
 /*----------------------------------------------
@@ -3949,6 +4026,18 @@ footer .copyright a:not(.btn) {
     }
     
     /* #endregion Modal */
+}
+
+@media(min-width: 768px) {
+    .offers.offer-full .card {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .offers.offer-full .items .item .gallery {
+        width: 100%;
+        max-width: 350px;
+    }
 }
 
 @media(max-width: 767px) {
