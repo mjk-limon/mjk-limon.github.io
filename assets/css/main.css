@@ -971,6 +971,16 @@ aside {
     display: none;
 }
 
+.offers .items .item .offer-details .description {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    box-orient: vertical;
+    line-clamp: 5;
+    -webkit-line-clamp: 5;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 .offers .items .item .icon {
     background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var(--primary-color) 65%);
     background-image: linear-gradient(45deg, var(--secondary-color) 15%, var(--primary-color) 65%);

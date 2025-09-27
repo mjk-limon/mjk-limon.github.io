@@ -1,5 +1,39 @@
 {
-    "projects": [{
-        "title": "simple"
-    }]
+    "projects": [
+        {
+            "thumbnail": "/asset/images/projects/prothoma-com.png",
+            "title": "Prothoma.com - eCommerce online book shop",
+            "description": "The online book marketplace prothoma.com operates as a subsidiary of Mediastar Limited (Prothom Alo). Their objective is to thoroughly and effortlessly satisfy the reading requirements of individuals with diverse tastes and preferences. They offer any book requested by the reader at a reasonable price. The book is dispatched to the reader's location anywhere in the country in the quickest possible time.",
+            "target_link": "https://www.prothoma.com/",
+            "target_github": ""
+        },
+        {
+            "thumbnail": "/asset/images/projects/sales-erp.png",
+            "title": "Business ERP - Sales-Purchase, Accounting, Stock Management System",
+            "description": "<ul><li><strong>Project:</strong> Business ERP System</li><li><strong>Modules Included:</strong> Sales, Purchase, Accounting, HRMS, Stock Management, Wastage etc.</li><li><strong>Tech Stack:</strong> Laravel, Blade, MySQL</li><li><strong>Status:</strong> Completed</li></ul>",
+            "target_link": "https://creative.jahidlimon.com/ilm-ecom",
+            "target_github": ""
+        },
+        {
+            "thumbnail": "/asset/images/projects/ilm-ecom-framework.png",
+            "title": "ILM Ecom - Lightweight PHP MVC Framework",
+            "description": "ILM Ecom is a custom-built, lightweight PHP MVC framework that's specialized for the development of rapid, scalable e-commerce web applications. It's built with simplicity and flexibility in mind and provides a tidy MVC framework, routing, templating engine, and essential in-built functionality such as user authentication, session management, and CSRF protection. ILM Ecom is built especially for online stores, with modular shopping cart and checkout system modules, product management, dynamic attributes, and payment gateway integration out of the box. The framework boasts a small footprint, so it is a good choice for developers who want full control over their e-commerce codebase without the overhead of the larger frameworks. It runs effectively in shared hosting setups and is configured to support clean URLs, SEO-friendly pages, and rapid development cycles. Built using core PHP, MySQL, and plain JavaScript, ILM Ecom is a trade-off between performance and flexibility, making it",
+            "target_link": "",
+            "target_github": "https://github.com/mjk-limon/ilm_framework"
+        },
+        {
+            "thumbnail": "/asset/images/projects/palo-shorts.png",
+            "title": "AI News Article Generator, News Summarizer",
+            "description": "<strong>AI News Article Generator & Summarizer</strong> is a Laravel, React, Inertia based internal tool developed for our news media company to streamline content creation. It helps our editorial team quickly generate news articles and create concise summaries from longer reports or press releases. Powered by AI, the system assists in rewriting, shortening, or drafting fresh content, saving time while maintaining editorial quality. This tool has become a key part of our workflow, improving efficiency without compromising the human touch in journalism.",
+            "target_link": "https://shorts.prothomalo.com",
+            "target_github": ""
+        },
+        {
+            "thumbnail": "/asset/images/projects/cache-proxy.png",
+            "title": "ILM SaaS - Laravel Multi-Tenancy Package,
+            "description": "API Cache Proxy is a lightweight PHP package designed to reduce redundant external API calls by caching responses for a specified duration. Instead of hitting the original API on every request, it stores the response locally and serves it from the cache until it expires. This improves performance, reduces latency, and helps manage API rate limits or quotas. It's especially useful for APIs with static or infrequently changing data. Easy to integrate into existing PHP projects, the package supports configurable cache durations and storage options.",
+            "target_link": "https://github.com/mjk-limon/api-cache-proxy-php",
+            "target_github": ""
+        }
+    ]
 }

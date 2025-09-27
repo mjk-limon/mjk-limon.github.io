@@ -491,7 +491,7 @@ jQuery(function ($) {
             <div class="card featured">
                 <div class="gallery"><a href=""><img src="" alt="Visual Art"></a></div>
                 <div class="offer-details">
-                    <h4></h4><p></p>
+                    <h4></h4><div class="description"></div>
                     <div class="d-flex mt-3" style="gap: 15px;">
                         <a href="" class="btn primary-button" target="_blank><i class="icon-rocket"></i>View Project</a>
                         <a href="" class="btn dark-button" target="_blank"><i class="icon-social-github"></i>Github</a>
@@ -508,7 +508,11 @@ jQuery(function ($) {
                 $items.empty();
 
                 if (Array.isArray(projects) && projects.length) {
-                    projects.forEach(project => {
+                    const formatted =  $portfolio.hasClass('offer-full')
+                        ? projects.splice(0, 6)
+                        : projects;
+
+                    formatted.forEach(project => {
                         const $e = $item.clone();
 
                         if ($portfolio.hasClass('offer-full')) {
@@ -519,9 +523,9 @@ jQuery(function ($) {
                         $e.find('.gallery a img').attr('src', project.thumbnail);
 
                         $e.find('.offer-details > h4').text(project.title);
-                        $e.find('.offer-details > p').text(project.description);
+                        $e.find('.offer-details .description').html(project.description);
 
-                        project.target_github
+                        project.target_link
                             ? $e.find('.offer-details .primary-button').attr('href', project.target_link)
                             : $e.find('.offer-details .primary-button').remove();
 
