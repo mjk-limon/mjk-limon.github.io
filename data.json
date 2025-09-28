@@ -1,49 +1,56 @@
 {
     "projects": [
         {
-            "thumbnail": "/asset/images/projects/prothoma-com.png",
+            "thumbnail": "./assets/images/projects/prothoma-com.png",
             "title": "Prothoma.com - eCommerce online book shop",
             "description": "The online book marketplace prothoma.com operates as a subsidiary of Mediastar Limited (Prothom Alo). Their objective is to thoroughly and effortlessly satisfy the reading requirements of individuals with diverse tastes and preferences. They offer any book requested by the reader at a reasonable price. The book is dispatched to the reader's location anywhere in the country in the quickest possible time.",
             "target_link": "https://www.prothoma.com/",
             "target_github": ""
         },
         {
-            "thumbnail": "/asset/images/projects/sales-erp.png",
+            "thumbnail": "./assets/images/projects/sales-erp.png",
             "title": "Business ERP - Sales-Purchase, Accounting, Stock Management System",
             "description": "<ul><li><strong>Project:</strong> Business ERP System</li><li><strong>Modules Included:</strong> Sales, Purchase, Accounting, HRMS, Stock Management, Wastage etc.</li><li><strong>Tech Stack:</strong> Laravel, Blade, MySQL</li><li><strong>Status:</strong> Completed</li></ul>",
-            "target_link": "https://creative.jahidlimon.com/ilm-ecom",
+            "target_link": "https://creative.jahidlimon.com/erp-ecom",
             "target_github": ""
         },
         {
-            "thumbnail": "/asset/images/projects/ilm-ecom-framework.png",
+            "thumbnail": "./assets/images/projects/ilm-ecom-framework.png",
             "title": "ILM Ecom - Lightweight PHP MVC Framework",
             "description": "ILM Ecom is a custom-built, lightweight PHP MVC framework that's specialized for the development of rapid, scalable e-commerce web applications. It's built with simplicity and flexibility in mind and provides a tidy MVC framework, routing, templating engine, and essential in-built functionality such as user authentication, session management, and CSRF protection. ILM Ecom is built especially for online stores, with modular shopping cart and checkout system modules, product management, dynamic attributes, and payment gateway integration out of the box. The framework boasts a small footprint, so it is a good choice for developers who want full control over their e-commerce codebase without the overhead of the larger frameworks. It runs effectively in shared hosting setups and is configured to support clean URLs, SEO-friendly pages, and rapid development cycles. Built using core PHP, MySQL, and plain JavaScript, ILM Ecom is a trade-off between performance and flexibility, making it",
             "target_link": "",
             "target_github": "https://github.com/mjk-limon/ilm_framework"
         },
         {
-            "thumbnail": "/asset/images/projects/palo-shorts.png",
+            "thumbnail": "./assets/images/projects/dhakadigitalxyz.png",
+            "title": "Dhaka Digital - Multi-Vendor IT Service Provider Bangladesh",
+            "description": "Dhaka Digital is a leading multi-vendor IT service provider in Bangladesh, offering tailored solutions including web development, digital marketing, graphic design, and more. Our platform connects businesses with top IT professionals for innovative and reliable services.",
+            "target_link": "https://dhakadigitalxyz.com",
+            "target_github": ""
+        },
+        {
+            "thumbnail": "./assets/images/projects/palo-shorts.png",
             "title": "AI News Article Generator, News Summarizer",
             "description": "<strong>AI News Article Generator & Summarizer</strong> is a Laravel, React, Inertia based internal tool developed for our news media company to streamline content creation. It helps our editorial team quickly generate news articles and create concise summaries from longer reports or press releases. Powered by AI, the system assists in rewriting, shortening, or drafting fresh content, saving time while maintaining editorial quality. This tool has become a key part of our workflow, improving efficiency without compromising the human touch in journalism.",
             "target_link": "https://shorts.prothomalo.com",
             "target_github": ""
         },
         {
-            "thumbnail": "/asset/images/projects/ilm-saas.png",
+            "thumbnail": "./assets/images/projects/ilm-saas.png",
             "title": "ILM SaaS - Multi-Tenancy Manager for Laravel",
             "description": "A Laravel client app built to manage SaaS tenants via a central API server. It handles API calls, caches data, processes it, and renders the frontend using React with Inertia.js. Designed for scalable multi-tenant SaaS systems.",
             "target_link": "",
             "target_github": "https://github.com/mjk-limon/ilm-ecom"
         },
         {
-            "thumbnail": "/asset/images/projects/ecommerce-1.png",
+            "thumbnail": "./assets/images/projects/ecom-1.png",
             "title": "eCommerce Web App - Core PHP and MySQL",
             "description": "Is a fast, lightweight eCommerce platform built from scratch using raw PHP, MySQL, and JavaScript. Powered by my custom <em>ILM Ecom MVC Framework</em>, it supports multiple store variants like grocery, cosmetics, and super shop — all optimized for speed and flexibility.",
-            "target_link": "https://creative.jahidlimon.com/ecommerce/",
+            "target_link": "https://smartbdonline.com",
             "target_github": "https://github.com/mjk-limon/php-ecommerce-frontend"
         },
         {
-            "thumbnail": "/asset/images/projects/gpa5-reception.png",
+            "thumbnail": "./assets/images/projects/interuni-football.png",
             "title": "Inter-University Football Tournament - Laravel Vue",
             "description": "<p>A modern web application for managing inter-university football tournaments, built with <strong>Laravel</strong> and <strong>Vue.js</strong>.</p><ul><li>Team and player registration with approval workflow</li><li>Automated fixture generation and scheduling</li><li>Match result submission and live updates</li><li>Role-based access for admins and team managers</li></ul>",
             "target_link": "https://www.interuniversityfootball.com/",
