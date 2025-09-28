@@ -500,7 +500,7 @@ jQuery(function ($) {
             </div>
         </div>`);
 
-        fetch('/data.json')
+        fetch('./data.json')
             .then(response => response.json())
             .then(json => {
                 const { projects } = json;
@@ -508,7 +508,7 @@ jQuery(function ($) {
                 $items.empty();
 
                 if (Array.isArray(projects) && projects.length) {
-                    const formatted =  $portfolio.hasClass('offer-full')
+                    const formatted = !$portfolio.hasClass('offer-full')
                         ? projects.splice(0, 6)
                         : projects;
 

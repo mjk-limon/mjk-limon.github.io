@@ -29,10 +29,24 @@
             "target_github": ""
         },
         {
-            "thumbnail": "/asset/images/projects/cache-proxy.png",
-            "title": "ILM SaaS - Laravel Multi-Tenancy Package,
-            "description": "API Cache Proxy is a lightweight PHP package designed to reduce redundant external API calls by caching responses for a specified duration. Instead of hitting the original API on every request, it stores the response locally and serves it from the cache until it expires. This improves performance, reduces latency, and helps manage API rate limits or quotas. It's especially useful for APIs with static or infrequently changing data. Easy to integrate into existing PHP projects, the package supports configurable cache durations and storage options.",
-            "target_link": "https://github.com/mjk-limon/api-cache-proxy-php",
+            "thumbnail": "/asset/images/projects/ilm-saas.png",
+            "title": "ILM SaaS - Multi-Tenancy Manager for Laravel",
+            "description": "A Laravel client app built to manage SaaS tenants via a central API server. It handles API calls, caches data, processes it, and renders the frontend using React with Inertia.js. Designed for scalable multi-tenant SaaS systems.",
+            "target_link": "",
+            "target_github": "https://github.com/mjk-limon/ilm-ecom"
+        },
+        {
+            "thumbnail": "/asset/images/projects/ecommerce-1.png",
+            "title": "eCommerce Web App - Core PHP and MySQL",
+            "description": "Is a fast, lightweight eCommerce platform built from scratch using raw PHP, MySQL, and JavaScript. Powered by my custom <em>ILM Ecom MVC Framework</em>, it supports multiple store variants like grocery, cosmetics, and super shop — all optimized for speed and flexibility.",
+            "target_link": "https://creative.jahidlimon.com/ecommerce/",
+            "target_github": "https://github.com/mjk-limon/php-ecommerce-frontend"
+        },
+        {
+            "thumbnail": "/asset/images/projects/gpa5-reception.png",
+            "title": "Inter-University Football Tournament - Laravel Vue",
+            "description": "<p>A modern web application for managing inter-university football tournaments, built with <strong>Laravel</strong> and <strong>Vue.js</strong>.</p><ul><li>Team and player registration with approval workflow</li><li>Automated fixture generation and scheduling</li><li>Match result submission and live updates</li><li>Role-based access for admins and team managers</li></ul>",
+            "target_link": "https://www.interuniversityfootball.com/",
             "target_github": ""
         }
     ]
