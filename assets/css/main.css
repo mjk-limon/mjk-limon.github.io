@@ -4045,8 +4045,9 @@ footer .copyright a:not(.btn) {
     }
 
     .offers.offer-full .items .item .gallery {
-        width: 100%;
-        max-width: 350px;
+        width: 350px;
+        max-width: 100%;
+        flex: 0 0 350px;
     }
 }
 

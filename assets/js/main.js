@@ -489,7 +489,7 @@ jQuery(function ($) {
 
         const $item = $(`<div class="col-12 col-md-6 col-lg-4 item">
             <div class="card featured">
-                <div class="gallery"><a href=""><img src="" alt="Visual Art"></a></div>
+                <div class="gallery"><a href=""><img src="" alt="Project Image"></a></div>
                 <div class="offer-details">
                     <h4></h4><div class="description"></div>
                     <div class="d-flex mt-3" style="gap: 15px;">
