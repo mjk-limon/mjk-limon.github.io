@@ -533,7 +533,8 @@ jQuery(function ($) {
                             ? $e.find('.offer-details .dark-button').attr('href', project.target_github)
                             : $e.find('.offer-details .dark-button').remove();
 
-                        $items.append($e)
+                        $items.append($e);
+                        $e.find('.gallery').lightGallery({ thumbnail: false, share: false });
                     });
                 }
             })
