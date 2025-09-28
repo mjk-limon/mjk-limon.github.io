@@ -1,3 +1,7 @@
 {
-    "html.format.wrapAttributes": "auto"
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "html.format.wrapAttributes": "auto",
+    "html.format.wrapLineLength": 200
 }
