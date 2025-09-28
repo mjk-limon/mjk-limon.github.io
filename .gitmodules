@@ -1,0 +1,3 @@
+[submodule "creative/ecom-erp"]
+	path = creative/ecom-erp
+	url = git@github.com:mjk-limon/php-sales-erp-application-laravel.git
